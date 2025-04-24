@@ -5,13 +5,20 @@
     flex-direction: column;
     width: 30rem;
     height: 50rem;
-    gap: 2rem;
+    gap: 1.5rem;
     border: 2px solid black;
     border-radius: 20px;
+    background-color: white;
 }
 
 .title-card{
     font-size: 1.4rem;
+    color: black;
+    width: 20rem;
+}
+
+.text-card{
+    font-size: 1rem;
     color: black;
     width: 20rem;
 }
