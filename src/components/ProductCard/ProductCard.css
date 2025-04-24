@@ -1,0 +1,31 @@
+.product-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30rem;
+    height: 50rem;
+    gap: 2rem;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.title-card{
+    font-size: 1.4rem;
+    color: black;
+    width: 20rem;
+}
+
+.product-image{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+
+.rating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-direction: row;
+}
