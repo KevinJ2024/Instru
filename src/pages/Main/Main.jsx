@@ -1,6 +1,7 @@
+import { useState } from 'react'
 import { ProductCard } from '../../components/ProductCard/ProductCard'
 import './Main.css'
-
+const URL = 'https://fakestoreapi.com/products'
 
 export const Main = () => {
 
@@ -9,7 +10,7 @@ export const Main = () => {
   const handleGetProducts = async () => {
     const response = await fetch(URL)
     const data = await response.json()
-    setProducts(data.results)
+    setProducts(data)
   }
 
   return (
