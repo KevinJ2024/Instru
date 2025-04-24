@@ -21,8 +21,8 @@ export const Header = () => {
 
   return (
     <header className="header">
-        <h1 className='title'>PRODUCTOS</h1>
-        <input type='text' placeholder='Buscar por nombre...' className='input' onChange={handleFilter}/>
+        <h1 className='title'>PRODUCTS</h1>
+        <input type='text' placeholder='Search by Name...' className='input' onChange={handleFilter}/>
     </header>
   )
 }
