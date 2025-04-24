@@ -7,7 +7,7 @@ export const Header = () => {
   const { allProducts, products, setProducts } = useContext(ProductContext)
 
   const handleFilter = (e) => {
-    const value = e.target.value.toLowerCase()
+  const value = e.target.value.toLowerCase()
 
   if (value === '') {
     setProducts(allProducts)
